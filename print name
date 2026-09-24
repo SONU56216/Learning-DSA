@@ -1,0 +1,37 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    // Declare variables to store user details
+    string name;
+    int age;
+    string collegeName;
+
+    // Prompt and take input for Name
+    cout << "Enter your full name: ";
+    getline(cin, name);
+
+    // Prompt and take input for Age
+    cout << "Enter your age: ";
+    cin >> age;
+
+    // Clear the input buffer before reading the next string
+    cin.ignore();
+
+    // Prompt and take input for College Name
+    cout << "Enter your college name: ";
+    getline(cin, collegeName);
+
+    // Print a blank line for clean formatting
+    cout << endl;
+
+    // Display the details back to the user
+    cout << "--- User Details ---" << endl;
+    cout << "Name: " << name << endl;
+    cout << "Age: " << age << endl;
+    cout << "College: " << collegeName << endl;
+
+    return 0;
+}
