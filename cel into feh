@@ -1,0 +1,20 @@
+ #include <iostream>
+ using namespace std;
+int main() {
+    // Using double to allow for decimal/fractional dimensions
+    float celsius, fahrenheit;
+
+    // Prompting user for input
+    cout << "Enter the temperature i celsius: ";
+    cin >> celsius;
+
+   
+    // Calculating Area and Perimeter
+    fahrenheit = (celsius *9.0)/5.0 + 32;
+    // Displaying the results
+    cout << "\n--- Results ---" << endl;
+    cout << celsius << "°C is equal to" << fahrenheit  <<  " °F"  << endl;
+    
+
+    return 0;
+}
