@@ -5,7 +5,7 @@ int main() {
     float celsius, fahrenheit;
 
     // Prompting user for input
-    cout << "Enter the temperature i celsius: ";
+    cout << "Enter the temperature in celsius: ";
     cin >> celsius;
 
    
