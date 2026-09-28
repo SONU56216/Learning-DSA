@@ -1,0 +1,33 @@
+#include <iostream>
+
+int main() {
+    int a, b;
+    
+    std::cout << "Enter two integers: ";
+    std::cin >> a >> b;
+    
+    // Perform operations
+    int addition = a + b;
+    int subtraction = a - b;
+    int multiplication = a * b;
+    
+    // Remainder (Modulo)
+    int remainder = a % b;
+    
+    // Print the standard integer results
+    std::cout << "Addition: " << addition << std::endl;
+    std::cout << "Subtraction: " << subtraction << std::endl;
+    std::cout << "Multiplication: " << multiplication << std::endl;
+    
+    // Division with decimal precision (using a double cast)
+    if (b != 0) {
+        double division = static_cast<double>(a) / b;
+        std::cout << "Division: " << division << std::endl;
+        std::cout << "Remainder: " << remainder << std::endl;
+    } else {
+        std::cout << "Division: Error (Cannot divide by zero)" << std::endl;
+        std::cout << "Remainder: Error (Cannot divide by zero)" << std::endl;
+    }
+    
+    return 0;
+}
