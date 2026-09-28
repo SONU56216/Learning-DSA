@@ -1,0 +1,17 @@
+#include <iostream>
+
+int main() {
+    int a, b;
+    
+    // Take input from the user
+    std::cout << "Enter two integers: ";
+    std::cin >> a >> b;
+    
+    // Calculate the average using 2.0 to force decimal division
+    double average = (a + b) / 2.0;
+    
+    // Output the result
+    std::cout << "Average: " << average << std::endl;
+    
+    return 0;
+}
