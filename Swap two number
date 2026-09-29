@@ -1,0 +1,13 @@
+#include <iostream>
+#include <utility> // Required for std::swap
+
+int main() {
+    int a = 10;
+    int b = 20;
+
+    // Swapping the values
+    std::swap(a, b);
+
+    std::cout << a << " " << b << std::endl; // Output: 20 10
+    return 0;
+}
