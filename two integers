@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num1, num2;
+
+    // Taking two integers as input from the user
+    cout << "Enter two integers: ";
+    cin >> num1 >> num2;
+
+    // Comparing the two numbers
+    if (num1 > num2) {
+        cout << "The greater number is: " << num1 << endl;
+    } 
+    else if (num2 > num1) {
+        cout << "The greater number is: " << num2 << endl;
+    } 
+    else {
+        cout << "Both numbers are equal." << endl;
+    }
+
+    return 0;
+}
