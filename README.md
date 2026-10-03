@@ -22,3 +22,26 @@ Q9. Maximum of Two Numbers<br>
 Take two integers and print the greater number.<br>
 Q10. Maximum of Three Numbers<br>
 Take three integers and print the largest number.<br>
+LEVEL 2 — Conditional Statements<br>
+Q11. Voting Eligibility<br>
+Take a person's age. Print whether the person is eligible to vote.<br>
+Q12. Divisible by 5<br>
+Take an integer and check whether it is divisible by 5.<br>
+Q13. Divisible by Both<br>
+Take an integer and check whether it is divisible by both 3 and 5.<br>
+Q14. Grade Calculator<br><br>
+Take marks from 0–100 and print a grade according to your own reasonable grading system.<br>
+Q15. Leap Year<br>
+Take a year and determine whether it is a leap year.<br>
+Q16. Character Type<br>
+Take a character and determine whether it is an Uppercase letter, Lowercase letter, Digit, or Special
+character.<br>
+Q17. Largest + Smallest<br>
+Take three numbers and print both the Largest and Smallest.<br>
+Q18. Simple Calculator<br>
+Take number1, operator, and number2. Perform the operation based on +, -, *, /, or %.<br>
+Q19. Profit or Loss<br>
+Take Cost Price and Selling Price. Determine whether the result is Profit, Loss, or No profit/no loss, and
+calculate the amount.<br>
+Q20. Triangle Validity<br>
+Take three angles and determine whether they can form a valid triangle.
