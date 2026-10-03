@@ -22,7 +22,11 @@ Q9. Maximum of Two Numbers<br>
 Take two integers and print the greater number.<br>
 Q10. Maximum of Three Numbers<br>
 Take three integers and print the largest number.<br>
-LEVEL 2 — Conditional Statements<br>
+<br>
+<br>
+<h4>
+  <u LEVEL 2 — Conditional Statements /><br>
+</h4>
 Q11. Voting Eligibility<br>
 Take a person's age. Print whether the person is eligible to vote.<br>
 Q12. Divisible by 5<br>
